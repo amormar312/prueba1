@@ -10,7 +10,6 @@ public class Ej3 {
         n2=sc.nextFloat();
         System.out.println("Introduce la tercera nota");
         n3=sc.nextFloat();
-
         media=(n1+n2+n3)/3;
         System.out.println("La nota final es: " + media);
         System.out.println(media>=5? "Esta aprobado" : "Esta suspenso");
